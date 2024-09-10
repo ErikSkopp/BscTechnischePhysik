@@ -54,8 +54,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: public  # Upload only the content of the 'public' folder
-          name: hugo-pages-artifact  # Specify a custom artifact name
+          path: public 
+          name: TechnischePhysik
 
       - name: Deploy to GitHub Pages
         id: deployment
