@@ -1,6 +1,7 @@
 # Hugo configuration file
 title: Technische Physik
 
+
 # import hextra as module
 module:
   imports:
@@ -54,4 +55,4 @@ params:
 
 services:
   googleAnalytics:
-    ID: G-T2SP8DXN7Q  
+    ID: G-T2SP8DXN7Q 
