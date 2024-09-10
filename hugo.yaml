@@ -1,6 +1,5 @@
 # Hugo configuration file
 title: Technische Physik
-baseURL: "physik.erik-skopp.de"
 
 # import hextra as module
 module:
