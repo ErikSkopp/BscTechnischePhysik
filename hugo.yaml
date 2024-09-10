@@ -16,7 +16,14 @@ markup:
   # enable hextra syntax highlight
   highlight:
     noClasses: false
+defaultContentLanguage: de
 
+languages:
+  de:
+    languageName: German
+    weight: 1
+    title: Technische Physik
+    contentDir: "content/de"
 menu:
   main:
     - name: About
