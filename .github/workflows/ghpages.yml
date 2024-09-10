@@ -51,15 +51,20 @@ jobs:
       - name: Build Hugo site
         run: |
           hugo
-          find . -mindepth 1 -not -name 'public' -not -path './public/*' -delete
+          # Do not delete the public folder until after the artifact upload
           mv public/* .
-          rm -rf public
-
+      
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: './*' 
+          
+      - name: Clean up public directory
+        run: |
+          rm -rf public
 
       - name: Deploy to GitHub Pages
         id: deployment
