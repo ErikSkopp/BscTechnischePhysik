@@ -49,7 +49,9 @@ jobs:
           extended: true
 
       - name: Build Hugo site
-        run: hugo
+        run: |
+          sed -i '4ibaseURL: "https://erikskopp.github.io/TechnischePhysik/"' hugo.yaml
+          hugo
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -57,7 +59,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: public  # Upload only the content of the 'public' folder
+          path: public
 
       - name: Deploy to GitHub Pages
         id: deployment
