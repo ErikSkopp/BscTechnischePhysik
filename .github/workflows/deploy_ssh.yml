@@ -30,14 +30,19 @@ jobs:
           extended: true
 
       - name: Build Hugo site
-        run: hugo
+        run: |
+          hugo
+          find . -mindepth 1 -not -name 'public' -not -path './public/*' -delete
+          mv public/* .
+          rm -rf public
+
 
       - name: Deploy files via SSH
         uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.SSH_SERVER }}
           username: ${{ secrets.SSH_USER }}
-          source: "/public/"
+          source: "."
           target: "/var/www/physik"
           rm: true
           password: ${{ secrets.SSH_PASSWORD }}
