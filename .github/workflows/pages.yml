@@ -31,6 +31,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - name: Set current date
+        run: echo "DATETIME=$(date +'%Y_%m_%d_%H_%M')" >> $GITHUB_ENV
+      
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -62,6 +65,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
+          name: TechnischePhysik_${{ env.DATETIME }}
 
       - name: Deploy to GitHub Pages
         id: deployment
