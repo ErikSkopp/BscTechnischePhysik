@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+  schedule:
+    - cron: "0 0 1 * *"
 
 jobs:
   build:
@@ -35,7 +37,6 @@ jobs:
           find . -mindepth 1 -not -name 'public' -not -path './public/*' -delete
           mv public/* .
           rm -rf public
-
 
       - name: Deploy files via SSH
         uses: appleboy/scp-action@v0.1.7
