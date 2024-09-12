@@ -55,7 +55,6 @@ jobs:
 
       - name: Build Hugo site
         run: |
-          sed -i '4ibaseURL: "https://erikskopp.github.io/TechnischePhysik/"' hugo.yaml
           hugo
 
       - name: Setup Pages
