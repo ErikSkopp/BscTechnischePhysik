@@ -3,10 +3,6 @@ title: Technische Physik
 toc: true
 ---
 
-## Vorkurs
-asdasdsasdadasd {{< footnoteset "2" "[Besuche Google](https://www.google.com)" >}} adssaddassadasdsd
+Das ist ein Text mit einer Fußnote[^2].
 
-## Bachelor
-
-## Fußnoten
-{{< footnotelist "" >}}
+[^2]: Hier ist die Erklärung zur Fußnote.
