@@ -1,7 +1,6 @@
 # Hugo configuration file
 title: Technische Physik
 
-
 # import hextra as module
 module:
   imports:
@@ -48,6 +47,10 @@ menu:
         icon: x-twitter
 
 params:
+  comments:
+    enable: false
+  theme:
+    default: light
   navbar:
     displayTitle: true
     displayLogo: true

@@ -1,17 +1,12 @@
 ---
-title: My Site
-toc: false
+title: Technische Physik
+toc: true
 ---
 
-This is the landing page.
+## Vorkurs
+asdasdsasdadasd {{< footnoteset "2" "[Besuche Google](https://www.google.com)" >}} adssaddassadasdsd
 
-## Explore
+## Bachelor
 
-{{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
-{{< /cards >}}
-
-## Documentation
-
-For more information, visit [Hextra](https://imfing.github.io/hextra).
+## Fußnoten
+{{< footnotelist "" >}}
