@@ -29,7 +29,10 @@ languages:
     contentDir: 'content/de'
 menu:
   main:
-    - name: About
+    - name: Modultafel
+      pageRef: /modultafel
+      weight: 1
+    - name: Über mich
       pageRef: /about
       weight: 2
     - name: Contact ↗
