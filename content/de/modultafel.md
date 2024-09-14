@@ -3,12 +3,15 @@ title: Modultafel
 toc: true
 type: docs
 ---
+{{< callout type="warning" >}}
+ **Hinweis:** Auf dieser Seite können gelegentlich Fehler auftreten. Bitte nutzen Sie den aktuellen Plan unter https://www.tu-ilmenau.de/modultafeln/TechnischePhysik/Bachelor/2023/, um die neuesten Informationen zu erhalten.
+{{< /callout >}}
 
 {{% steps %}}
 
 ### Semester 1
 
-#### Algemeine Elektrotechnik
+#### Allgemeine Elektrotechnik 1
 - [Zum Ordner](/elektrotechnik/)
 - Vorlesungen: 3, Übungen: 2, Praktika: 0
 - Prüfungsleistung: Prüfungsleistung (PL), Leistungspunkte: 5
