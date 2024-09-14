@@ -25,6 +25,7 @@ Das ist ein Text mit einer Fußnote[^2].
 
 {{< cards >}}
 {{< card link="/elektrotechnik/" title="Algemeine Elektrotechnik" image="/images/module/elektrotechnik.jpg" subtitle="Semester 2" tag="Pflichtmodul" >}}
+{{< card link="/experimentalphysik_schwingungen_wellen_und_felder_2/" title="Experimentalphysik 2: Schwingungen, Wellen und Felder" image="/images/module/experimentalphysik_2.jpg" subtitle="Semester 2" tag="Pflichtmodul" >}}
 {{< card link="/mathematik_physiker_2/" title="Mathematik für Physiker 2" image="/images/module/mathematik_physiker_2.jpg" subtitle="Semester 2" tag="Pflichtmodul" >}}
 {{< card link="/organische_physikalische_chemie/" title="Organische und Physikalische Chemie" image="/images/module/organische_physikalische_chemie.jpg" subtitle="Semester 2" tag="Pflichtmodul" >}}
 {{< card link="/theoretische_physik_mechanik_1/" title="Theoretische Physik 1: Mechanik" image="/images/module/theoretische_physik_mechanik_1.jpg" subtitle="Semester 2" tag="Pflichtmodul" >}}
