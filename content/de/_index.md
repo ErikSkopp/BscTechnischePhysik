@@ -55,7 +55,7 @@ Das ist ein Text mit einer Fußnote[^2].
 {{< card link="/theoretische_physik_elektrodynamik_3/" title="Theoretische Physik 3: Elektrodynamik" image="/images/module/theoretische_physik_elektrodynamik_3.jpg" subtitle="Semester 4" tag="Pflichtmodul" >}}
 {{< card link="/technische_physik_1/" title="Technische Physik 1" image="/images/module/technische_physik_1.jpg" subtitle="Semester 4" tag="Pflichtmodul" >}}
 {{< card link="/technische_physik_2/" title="Technische Physik 2" image="/images/module/technische_physik_2.jpg" subtitle="Semester 4" tag="Pflichtmodul" >}}
-{{< card link="/lichttechnik_optik_1/" title="Lichttechnik 1 und Technische Optik 1" image="/images/module/lichttechnik_optik_1.jpg" subtitle="Semester 4" tag="Pflichtmodul" >}}
+{{< card link="/lichttechnik_optik_1/" title="Lichttechnik 1 und Technische Optik 1" image="/images/module/lichttechnik_optik_1.jpg" subtitle="Semester 4" tag="Wahlbereich" >}}
 {{< card link="/numerik/" title="Numerik" image="/images/module/numerik.jpg" subtitle="Semester 4" tag="Pflichtmodul" >}}
 {{< card link="/physik_seminar_1/" title="Seminar Physik 1 (Englisch) (BA TPH)" image="/images/module/physik_seminar_1.jpg" subtitle="Semester 4" tag="Pflichtmodul" >}}
 {{< /cards >}}
