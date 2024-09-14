@@ -3,19 +3,53 @@ title: Technische Physik
 toc: true
 type: docs
 ---
-{{< cards >}}
-  {{< card link="../callout" title="Card with default tag color" tag="tag text" >}}
-  {{< card link="../callout" title="Card with default red tag" tag="tag text" tagType="error" >}}
-  {{< card link="../callout" title="Card with blue tag" tag="tag text" tagType="info" >}}
-  {{< card link="../callout" title="Card with yellow tag" tag="tag text" tagType="warning" >}}
-{{< /cards >}}
-<!-- Das ist ein Text mit einer Fußnote[^2].
 
-[^2]: Hier ist die Erklärung zur Fußnote. -->
-
+<!--
+Das ist ein Text mit einer Fußnote[^2].
+[^2]: Hier ist die Erklärung zur Fußnote.
+ -->
 
 {{< cards >}}
-  {{< card link="/" title="Image Card" image="https://source.unsplash.com/featured/800x600?landscape" subtitle="Unsplash Landscape" >}}
-  {{< card link="/" title="Local Image" image="/images/module/flowers-7276139_1280.jpg" subtitle="Raw image under static directory." >}}
-  {{< card link="/" title="Local Image" image="images/space.jpg" subtitle="Image under assets directory, processed by Hugo." method="Resize" options="600x q80 webp" >}}
+{{< card link="/Elektrotechnik/" title="Algemeine Elektrotechnik" image="/images/module/elektrotechnik.jpg" subtitle="Semester 1" tag="Pflichtmodul" >}}
+{{< card link="/Experimentalphysik_Mechanik_Thermodynamik_1/" title="Experimentalphysik 1: Mechanik und Thermodynamik" image="/images/module/experimentalphysik_mechanik_thermodynamik_1.jpg" subtitle="Semester 1" tag="Pflichtmodul" >}}
+{{< card link="/Chemie/" title="Grundlagen der Chemie" image="/images/module/chemie.jpg" subtitle="Semester 1" tag="Pflichtmodul" >}}
+{{< card link="/Mathematik_Physiker_1/" title="Mathematik für Physiker 1" image="/images/module/mathematik_physiker_1.jpg" subtitle="Semester 1" tag="Pflichtmodul" >}}
+{{< card link="/Physik_Praktikum_1/" title="Grundpraktikum für Physik 1" image="/images/module/physik_praktikum_1.jpg" subtitle="Semester 1" tag="Pflichtmodul" >}}
+{{< card link="/Studium_Generale_1/" title="Studium Generale 1" image="/images/module/studium_generale_1.jpg" subtitle="Semester 1" tag="Pflichtmodul" >}}
+{{< card link="/Studium_Generale_2/" title="Studium Generale 2" image="/images/module/studium_generale_2.jpg" subtitle="Semester 1" tag="Pflichtmodul" >}}
+
+{{< card link="/Mathematik_Physiker_2/" title="Mathematik für Physiker 2" image="/images/module/mathematik_physiker_2.jpg" subtitle="Semester 2" tag="Pflichtmodul" >}}
+{{< card link="/Organische_Physikalische_Chemie/" title="Organische und Physikalische Chemie" image="/images/module/organische_physikalische_chemie.jpg" subtitle="Semester 2" tag="Pflichtmodul" >}}
+{{< card link="/Theoretische_Physik_Mechanik_1/" title="Theoretische Physik 1: Mechanik" image="/images/module/theoretische_physik_mechanik_1.jpg" subtitle="Semester 2" tag="Pflichtmodul" >}}
+{{< card link="/Physik_Praktikum_1/" title="Grundpraktikum der Physik 1" image="/images/module/physik_praktikum_1.jpg" subtitle="Semester 2" tag="Pflichtmodul" >}}
+
+{{< card link="/Experimentalphysik_Elektrizitaet_Optik_3/" title="Experimentalphysik 3: Elektrizitätslehre und Optik" image="/images/module/experimentalphysik_elektrizitaet_optik_3.jpg" subtitle="Semester 3" tag="Pflichtmodul" >}}
+{{< card link="/Elektronik/" title="Grundlagen der Elektronik" image="/images/module/elektronik.jpg" subtitle="Semester 3" tag="Pflichtmodul" >}}
+{{< card link="/Mathematik_Physiker_3/" title="Mathematik für Physiker 3" image="/images/module/mathematik_physiker_3.jpg" subtitle="Semester 3" tag="Pflichtmodul" >}}
+{{< card link="/Theoretische_Physik_Quantenmechanik_2/" title="Theoretische Physik 2: Quantenmechanik" image="/images/module/theoretische_physik_quantenmechanik_2.jpg" subtitle="Semester 3" tag="Pflichtmodul" >}}
+{{< card link="/Physik_Praktikum_2/" title="Grundpraktikum der Physik 2" image="/images/module/physik_praktikum_2.jpg" subtitle="Semester 3" tag="Pflichtmodul" >}}
+{{< card link="/Astrophysik/" title="Astrophysik" image="/images/module/astrophysik.jpg" subtitle="Semester 3" tag="Pflichtmodul" >}}
+{{< card link="/Molekulardynamik/" title="Einführung in die Molekulardynamik" image="/images/module/molekulardynamik.jpg" subtitle="Semester 3" tag="Pflichtmodul" >}}
+{{< card link="/Physik_Industrie/" title="Physik in der Industrie" image="/images/module/physik_industrie.jpg" subtitle="Semester 3" tag="Pflichtmodul" >}}
+
+{{< card link="/Experimentalphysik_Atome_Kerne_Teilchen_4/" title="Experimentalphysik 4: Atome, Kerne, Teilchen" image="/images/module/experimentalphysik_atome_kerne_teilchen_4.jpg" subtitle="Semester 4" tag="Pflichtmodul" >}}
+{{< card link="/Elektronik/" title="Grundlagen der Elektronik" image="/images/module/elektronik.jpg" subtitle="Semester 4" tag="Pflichtmodul" >}}
+{{< card link="/Physik_Praktikum_2/" title="Grundpraktikum der Physik 2" image="/images/module/physik_praktikum_2.jpg" subtitle="Semester 4" tag="Pflichtmodul" >}}
+{{< card link="/Technische_Mechanik_1/" title="Technische Mechanik 1" image="/images/module/technische_mechanik_1.jpg" subtitle="Semester 4" tag="Pflichtmodul" >}}
+{{< card link="/Theoretische_Physik_Elektrodynamik_3/" title="Theoretische Physik 3: Elektrodynamik" image="/images/module/theoretische_physik_elektrodynamik_3.jpg" subtitle="Semester 4" tag="Pflichtmodul" >}}
+{{< card link="/Technische_Physik_1/" title="Technische Physik 1" image="/images/module/technische_physik_1.jpg" subtitle="Semester 4" tag="Pflichtmodul" >}}
+{{< card link="/Technische_Physik_2/" title="Technische Physik 2" image="/images/module/technische_physik_2.jpg" subtitle="Semester 4" tag="Pflichtmodul" >}}
+{{< card link="/Lichttechnik_Optik_1/" title="Lichttechnik 1 und Technische Optik 1" image="/images/module/lichttechnik_optik_1.jpg" subtitle="Semester 4" tag="Pflichtmodul" >}}
+{{< card link="/Numerik/" title="Numerik" image="/images/module/numerik.jpg" subtitle="Semester 4" tag="Pflichtmodul" >}}
+{{< card link="/Physik_Seminar_1/" title="Seminar Physik 1 (Englisch) (BA TPH)" image="/images/module/physik_seminar_1.jpg" subtitle="Semester 4" tag="Pflichtmodul" >}}
+
+{{< card link="/Fortgeschrittenenpraktikum_Physik_1/" title="Fortgeschrittenenpraktikum der Physik 1" image="/images/module/fortgeschrittenenpraktikum_physik_1.jpg" subtitle="Semester 5" tag="Pflichtmodul" >}}
+{{< card link="/Technische_Physik_1/" title="Technische Physik 1" image="/images/module/technische_physik_1.jpg" subtitle="Semester 5" tag="Pflichtmodul" >}}
+{{< card link="/Technische_Physik_2/" title="Technische Physik 2" image="/images/module/technische_physik_2.jpg" subtitle="Semester 5" tag="Pflichtmodul" >}}
+{{< card link="/Theoretische_Physik_Statistische_Thermodynamik_4/" title="Theoretische Physik 4: Statistische Physik / Thermodynamik" image="/images/module/theoretische_physik_statistische_thermodynamik_4.jpg" subtitle="Semester 5" tag="Pflichtmodul" >}}
+{{< card link="/Molekulardynamik/" title="Einführung in die Molekulardynamik" image="/images/module/molekulardynamik.jpg" subtitle="Semester 5" tag="Pflichtmodul" >}}
+{{< card link="/Physik_Seminar_2/" title="Seminar Physik 2 (Englisch) (BA TPH)" image="/images/module/physik_seminar_2.jpg" subtitle="Semester 5" tag="Pflichtmodul" >}}
+
+{{< card link="/Praktikum/" title="Berufsbezogenes Praktikum (3 Monate)" image="/images/module/praktikum.jpg" subtitle="Semester 6" tag="Pflichtmodul" >}}
+{{< card link="/Bachelorarbeit/" title="Bachelorarbeit mit Kolloquium" image="/images/module/bachelorarbeit.jpg" subtitle="Semester 6" tag="Pflichtmodul" >}}
 {{< /cards >}}
