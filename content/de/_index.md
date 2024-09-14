@@ -17,8 +17,8 @@ Das ist ein Text mit einer Fußnote[^2].
 {{< card link="/chemie/" title="Grundlagen der Chemie" image="/images/module/chemie.jpg" subtitle="Semester 1" tag="Pflichtmodul" >}}
 {{< card link="/mathematik_physiker_1/" title="Mathematik für Physiker 1" image="/images/module/mathematik_physiker_1.jpg" subtitle="Semester 1" tag="Pflichtmodul" >}}
 {{< card link="/physik_praktikum_1/" title="Grundpraktikum für Physik 1" image="/images/module/physik_praktikum_1.jpg" subtitle="Semester 1" tag="Pflichtmodul" >}}
-{{< card link="/studium_generale_1/" title="Studium Generale 1" image="/images/module/studium_generale_1.jpg" subtitle="Semester 1" tag="Pflichtmodul" >}}
-{{< card link="/studium_generale_2/" title="Studium Generale 2" image="/images/module/studium_generale_2.jpg" subtitle="Semester 1" tag="Pflichtmodul" >}}
+{{< card link="/studium_generale_1/" title="Studium Generale 1" image="/images/module/studium_generale_1.jpg" subtitle="Semester 1" tag="Schlüsselkompetenzen" >}}
+{{< card link="/studium_generale_2/" title="Studium Generale 2" image="/images/module/studium_generale_2.jpg" subtitle="Semester 1" tag="Schlüsselkompetenzen" >}}
 {{< /cards >}}
 
 ### Semester 2
@@ -73,5 +73,5 @@ Das ist ein Text mit einer Fußnote[^2].
 
 {{< cards >}}
 {{< card link="/praktikum/" title="Berufsbezogenes Praktikum (3 Monate)" image="/images/module/praktikum.jpg" subtitle="Semester 6" tag="Pflichtmodul" >}}
-{{< card link="/bachelorarbeit/" title="Bachelorarbeit mit Kolloquium" image="/images/module/bachelorarbeit.jpg" subtitle="Semester 6" tag="Pflichtmodul" >}}
+{{< card link="/bachelorarbeit/" title="Bachelorarbeit mit Kolloquium" image="/images/module/bachelorarbeit.jpg" subtitle="Semester 6" tag="Abschlussarbeit" >}}
 {{< /cards >}}
