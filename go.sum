@@ -1,2 +1,4 @@
-github.com/imfing/hextra v0.8.2 h1:/IykSIAywgKfhKUBgAW+dCCjrJWJNny4jr9qvdXfch0=
-github.com/imfing/hextra v0.8.2/go.mod h1:cEfel3lU/bSx7lTE/+uuR4GJaphyOyiwNR3PTqFTXpI=
+github.com/hugomods/search v0.17.1 h1:2pL3pVGmdzF0JxD/EEmE7/xDMPd7Y4eDTMNPxvKHYWw=
+github.com/hugomods/search v0.17.1/go.mod h1:xPnDGjP/HCdEWJrJBwwdI2mEtdxFxp+wHBwSl/r2m00=
+github.com/imfing/hextra v0.8.3 h1:peKCtkOwcVMQV2EqMb/VUhwpYDsI1B14U1rDqAgMHzk=
+github.com/imfing/hextra v0.8.3/go.mod h1:cEfel3lU/bSx7lTE/+uuR4GJaphyOyiwNR3PTqFTXpI=
