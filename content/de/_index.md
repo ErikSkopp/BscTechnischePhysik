@@ -40,8 +40,8 @@ Das ist ein Text mit einer Fußnote[^2].
 {{< card link="/mathematik_physiker_3/" title="Mathematik für Physiker 3" image="/images/module/mathematik_physiker_3.jpg" subtitle="Semester 3" tag="Pflichtmodul" >}}
 {{< card link="/theoretische_physik_quantenmechanik_2/" title="Theoretische Physik 2: Quantenmechanik" image="/images/module/theoretische_physik_quantenmechanik_2.jpg" subtitle="Semester 3" tag="Pflichtmodul" >}}
 {{< card link="/physik_praktikum_2/" title="Grundpraktikum der Physik 2" image="/images/module/physik_praktikum_2.jpg" subtitle="Semester 3" tag="Pflichtmodul" >}}
-{{< card link="/astrophysik/" title="Astrophysik" image="/images/module/astrophysik.jpg" subtitle="Semester 3" tag="Pflichtmodul" >}}
-{{< card link="/molekulardynamik/" title="Einführung in die Molekulardynamik" image="/images/module/molekulardynamik.jpg" subtitle="Semester 3" tag="Pflichtmodul" >}}
+{{< card link="/astrophysik/" title="Astrophysik" image="/images/module/astrophysik.jpg" subtitle="Semester 3" tag="Wahlbereich" >}}
+{{< card link="/molekulardynamik/" title="Einführung in die Molekulardynamik" image="/images/module/molekulardynamik.jpg" subtitle="Semester 3" tag="Wahlbereich" >}}
 {{< card link="/physik_industrie/" title="Physik in der Industrie" image="/images/module/physik_industrie.jpg" subtitle="Semester 3" tag="Pflichtmodul" >}}
 {{< /cards >}}
 
