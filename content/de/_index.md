@@ -12,7 +12,7 @@ Das ist ein Text mit einer Fußnote[^2].
 ### Semester 1
 
 {{< cards >}}
-{{< card link="/elektrotechnik/" title="Algemeine Elektrotechnik" image="/images/module/elektrotechnik.jpg" subtitle="1." tag="Pflichtmodul" >}}
+{{< card link="/elektrotechnik/" title="Algemeine Elektrotechnik" image="/images/module/elektrotechnik.jpg" subtitle="Semester 1" tag="Pflichtmodul" >}}
 {{< card link="/experimentalphysik_mechanik_thermodynamik_1/" title="Experimentalphysik 1: Mechanik und Thermodynamik" image="/images/module/experimentalphysik_mechanik_thermodynamik_1.jpg" subtitle="Semester 1" tag="Pflichtmodul" >}}
 {{< card link="/chemie/" title="Grundlagen der Chemie" image="/images/module/chemie.jpg" subtitle="Semester 1" tag="Pflichtmodul" >}}
 {{< card link="/mathematik_physiker_1/" title="Mathematik für Physiker 1" image="/images/module/mathematik_physiker_1.jpg" subtitle="Semester 1" tag="Pflichtmodul" >}}
@@ -24,6 +24,7 @@ Das ist ein Text mit einer Fußnote[^2].
 ### Semester 2
 
 {{< cards >}}
+{{< card link="/elektrotechnik/" title="Algemeine Elektrotechnik" image="/images/module/elektrotechnik.jpg" subtitle="Semester 2" tag="Pflichtmodul" >}}
 {{< card link="/mathematik_physiker_2/" title="Mathematik für Physiker 2" image="/images/module/mathematik_physiker_2.jpg" subtitle="Semester 2" tag="Pflichtmodul" >}}
 {{< card link="/organische_physikalische_chemie/" title="Organische und Physikalische Chemie" image="/images/module/organische_physikalische_chemie.jpg" subtitle="Semester 2" tag="Pflichtmodul" >}}
 {{< card link="/theoretische_physik_mechanik_1/" title="Theoretische Physik 1: Mechanik" image="/images/module/theoretische_physik_mechanik_1.jpg" subtitle="Semester 2" tag="Pflichtmodul" >}}
