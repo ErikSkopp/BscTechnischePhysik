@@ -1,5 +1,5 @@
 ---
-title: Experimentalphysik 4 Atome, Kerne, Teilchen
+title: Experimentalphysik 2 - Schwingungen, Wellen und Felder
 toc: true
 type: docs
 ---
