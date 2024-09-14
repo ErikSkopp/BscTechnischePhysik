@@ -10,7 +10,7 @@ Das ist ein Text mit einer Fußnote[^2].
  -->
 
 {{< cards >}}
-{{< card link="/elektrotechnik/" title="Algemeine Elektrotechnik" image="/images/module/elektrotechnik.jpg" subtitle="Semester 1" tags="Pflichtmodul" >}}
+{{< card link="/elektrotechnik/" title="Algemeine Elektrotechnik" image="/images/module/elektrotechnik.jpg" subtitle="Semester 1" tag="Pflichtmodul" >}}
 {{< card link="/experimentalphysik_mechanik_thermodynamik_1/" title="Experimentalphysik 1: Mechanik und Thermodynamik" image="/images/module/experimentalphysik_mechanik_thermodynamik_1.jpg" subtitle="Semester 1" tags="Pflichtmodul" >}}
 {{< card link="/chemie/" title="Grundlagen der Chemie" image="/images/module/chemie.jpg" subtitle="Semester 1" tags="Pflichtmodul" >}}
 {{< card link="/mathematik_physiker_1/" title="Mathematik für Physiker 1" image="/images/module/mathematik_physiker_1.jpg" subtitle="Semester 1" tags="Pflichtmodul" >}}
