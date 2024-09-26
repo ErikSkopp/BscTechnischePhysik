@@ -47,3 +47,11 @@ jobs:
           target: "/var/www/bsc-tph"
           rm: true
           password: ${{ secrets.SSH_PASSWORD }}
+            
+      - name: folder
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+            host: ${{ secrets.SSH_SERVER }}
+            username: ${{ secrets.SSH_USER }}
+            password: ${{ secrets.PASSWORD }}
+            script: cd /var/www/bsc-tph; mv public/* .;  rm -rf public
