@@ -48,7 +48,7 @@ jobs:
           rm: true
           password: ${{ secrets.SSH_PASSWORD }}
             
-      - name: folder
+      - name: Create folder structure
         uses: appleboy/ssh-action@v1.0.3
         with:
             host: ${{ secrets.SSH_SERVER }}
