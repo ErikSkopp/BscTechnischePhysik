@@ -36,57 +36,30 @@ languages:
     contentDir: 'content/en'
 
 menu:
-  de:
-    main:
-      - name: Modultafel
-        pageRef: /modultafel
-        weight: 1
-      - name: Über mich
-        pageRef: /about
-        weight: 2
-      - name: Contact ↗
-        url: 'https://github.com/ErikSkopp'
-        weight: 3
-      - name: Search
-        weight: 4
-        params:
-          type: search
-      - name: GitHub
-        weight: 5
-        url: 'https://github.com/ErikSkopp/BscTechnischePhysik'
-        params:
-          icon: github
-      - name: Twitter
-        weight: 6
-        url: 'https://twitter.com/erikskopp'
-        params:
-          icon: x-twitter
-
-  en:
-    main:
-      - name: Module Table
-        pageRef: /modultafel
-        weight: 1
-      - name: About Me
-        pageRef: /about
-        weight: 2
-      - name: Contact ↗
-        url: 'https://github.com/ErikSkopp'
-        weight: 3
-      - name: Search
-        weight: 4
-        params:
-          type: search
-      - name: GitHub
-        weight: 5
-        url: 'https://github.com/ErikSkopp/BscTechnischePhysik'
-        params:
-          icon: github
-      - name: Twitter
-        weight: 6
-        url: 'https://twitter.com/erikskopp'
-        params:
-          icon: x-twitter
+  main:
+    - name: Modultafel
+      pageRef: /modultafel
+      weight: 1
+    - name: Über mich
+      pageRef: /about
+      weight: 2
+    - name: Contact ↗
+      url: 'https://github.com/ErikSkopp'
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: GitHub
+      weight: 5
+      url: 'https://github.com/ErikSkopp/BscTechnischePhysik'
+      params:
+        icon: github
+    - name: Twitter
+      weight: 6
+      url: 'https://twitter.com/erikskopp'
+       params:
+        icon: x-twitter
 
 params:
   comments:
