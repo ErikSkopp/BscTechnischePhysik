@@ -53,5 +53,5 @@ jobs:
         with:
             host: ${{ secrets.SSH_SERVER }}
             username: ${{ secrets.SSH_USER }}
-            password: ${{ secrets.PASSWORD }}
+            password: ${{ secrets.SSH_PASSWORD }}
             script: cd /var/www/bsc-tph; mv public/* .;  rm -rf public
