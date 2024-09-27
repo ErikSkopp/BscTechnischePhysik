@@ -11,6 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Deploy English
+        run: |
+          sed -i '23s/defaultContentLanguage: de/defaultContentLanguage: de/' hugo.yaml
+
       - name: Set current date
         run: echo "DATETIME=$(date +'%Y_%m_%d_%H_%M')" >> $GITHUB_ENV
 

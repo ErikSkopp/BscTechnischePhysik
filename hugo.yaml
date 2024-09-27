@@ -20,7 +20,7 @@ markup:
   highlight:
     noClasses: false
 
-defaultContentLanguage: en
+defaultContentLanguage: de
 
 languages:
   de:
