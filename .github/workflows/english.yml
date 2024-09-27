@@ -1,4 +1,4 @@
-name: Deploy to Server via SSH
+name: Deploy English
 
 on:
   push:
@@ -44,7 +44,7 @@ jobs:
           host: ${{ secrets.SSH_SERVER }}
           username: ${{ secrets.SSH_USER }}
           source: "public/*"
-          target: "/var/www/bsc-tph"
+          target: "/var/www/bsc-tph-en"
           rm: true
           password: ${{ secrets.SSH_PASSWORD }}
             
@@ -54,4 +54,4 @@ jobs:
             host: ${{ secrets.SSH_SERVER }}
             username: ${{ secrets.SSH_USER }}
             password: ${{ secrets.SSH_PASSWORD }}
-            script: cd /var/www/bsc-tph; mv public/* .;  rm -rf public
+            script: cd /var/www/bsc-tph-en; mv public/* .;  rm -rf public

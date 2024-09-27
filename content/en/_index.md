@@ -3,6 +3,9 @@ title: Technische Physik
 toc: true
 type: docs
 ---
+{{< callout type="error" >}}
+  The English version has not yet been created.
+{{< /callout >}}
 
 <!--
 Das ist ein Text mit einer Fußnote[^2].
