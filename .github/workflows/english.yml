@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Deploy English
         run: |
+          pwd
+          ls -aril
           sed -i '23s/defaultContentLanguage: de/defaultContentLanguage: de/' hugo.yaml
 
       - name: Set current date
