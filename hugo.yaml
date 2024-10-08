@@ -1,13 +1,14 @@
 # Hugo configuration file
 title: Technische Physik
 baseURL: "https://erik-skopp.de/physik/"
-relativeURLs: true
-canonifyURLs: true
+relativeURLs: false
+canonifyURLs: false
+theme: "hextra"
 
 # import hextra as module
 module:
   imports:
-    - path: "github.com/imfing/hextra"
+    # - path: "github.com/imfing/hextra"
     - path: "github.com/hugomods/search"
 
 markup:
