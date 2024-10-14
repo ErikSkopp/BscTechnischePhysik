@@ -1,0 +1,2 @@
+{{ $hdr := .Get 0 }}{{ $list := .Page.Store.Get "footnotes"}}<br><div class=b>{{ $hdr }}</div>{{ range $key, $value :=
+$list }}{{ $key}}: {{$value}}<br />{{end}}{{ .Page.Scratch.Delete "footnotes" }}

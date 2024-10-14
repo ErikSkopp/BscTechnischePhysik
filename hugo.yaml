@@ -1,0 +1,83 @@
+# Hugo configuration file
+title: Technische Physik
+baseURL: "https://erik-skopp.de/physik/"
+relativeURLs: false
+canonifyURLs: false
+theme: "hextra"
+
+# import hextra as module
+module:
+  imports:
+    - path: "github.com/imfing/hextra"
+    - path: "github.com/hugomods/search"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      footnote: true
+      linkify: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+defaultContentLanguage: de
+
+languages:
+  de:
+    languageName: German
+    weight: 1
+    title: Technische Physik
+    contentDir: 'content/de'
+
+  en:
+    languageName: English
+    weight: 2
+    title: Technical Physics
+    contentDir: 'content/en'
+
+menu:
+  main:
+    - name: Modultafel
+      pageRef: /modultafel
+      weight: 1
+    - name: Über mich
+      pageRef: /about
+      weight: 2
+    - name: Contact ↗
+      url: 'https://github.com/ErikSkopp'
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: GitHub
+      weight: 5
+      url: 'https://github.com/ErikSkopp/BscTechnischePhysik'
+      params:
+        icon: github
+
+params:
+  comments:
+    enable: false
+  theme:
+    default: light
+  navbar:
+    displayTitle: true
+    displayLogo: true
+
+  footer:
+    displayCopyright: true
+    displayPoweredBy: true
+
+  editURL:
+    enable: true
+    base: 'https://github.com/ErikSkopp/BscTechnischePhysik/edit/main/content'
+
+services:
+  googleAnalytics:
+    ID: G-T2SP8DXN7Q
+    
+enableInlineShortcodes: true
