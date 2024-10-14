@@ -3,7 +3,7 @@ title: Technische Physik
 baseURL: "https://erik-skopp.de/physik/"
 relativeURLs: false
 canonifyURLs: false
-theme: "hextra"
+
 
 # import hextra as module
 module:
