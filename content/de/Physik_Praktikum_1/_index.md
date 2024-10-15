@@ -14,3 +14,9 @@ Das Modul wird im aktuellen Semester belegt.
 {{< card title="Chemie Praktikum" link="https://erik-skopp.de/physik/grundpraktikum_chemie/" tag="intern" >}}
 {{< card link="praktikumsordnung" title="Test zur Praktikumsordnung" tag="intern" >}}
 {{< /cards >}}
+
+## Praktikum
+
+{{< cards >}}
+{{< card title="Physik Praktikum - M0" link="M0" tag="21.10.2024" >}}
+{{< /cards >}}
