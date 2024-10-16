@@ -38,11 +38,3 @@ Das Praktikum findet am 21.10.2024 statt
 
 3. Was gibt die Standardabweichung an?
 
-| Intervall-Nr. | Intervallmitte $T_k$ (s) | Häufigkeiten                         | Häufigkeitssummen                    |
-|---------------|--------------------------|--------------------------------------|--------------------------------------|
-| $k$           |                          | $H_{k,10}$ | $H_{k,25}$ | $H_{k,50}$ | $H_{k,100}$ | $H_{k,200}$ | $HS_{k,200}$ | $HS_{k,200,rel}$ (%) |
-| 0             | $T_i < T_a$              |                                      |                                        |
-| 1             | $T_1$                    |                                      | $H_{1,200}$                           |
-| 2             | $T_2$                    |                                      | $H_{1,200} + H_{2,200}$               |
-| $\vdots$      | $\vdots$                 |                                      | $\vdots$                              |
-| $r+1$         | $T_i > T_e$              |                                      |                                        |
